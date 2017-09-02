@@ -31,8 +31,9 @@ int LinkedList<T>::size() const
 {
 	/** TODO 
 		Fix this method
+		changed return(0) to return(m_size)
 	*/
-	return(0);
+	return(m_size);
 }
 
 template <typename T>
